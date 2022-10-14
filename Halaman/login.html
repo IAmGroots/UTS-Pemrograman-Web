@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Style/login.css">
+  <title>Login</title>
+  <script>
+    function hint() {
+      alert("Admin \nUsername : Asep \nPassword  : 123 \n\nUser \nUsername : Budi \nPassword  : 321")
+    }
+
+    function forgot() {
+      alert("Website masih dalam tahap Pengembangan")
+    }
+
+    function register() {
+      alert("Website masih dalam tahap Pengembangan")
+    }
+  </script>
+</head>
+
+<body>
+  <div class="box">
+    <form action="../Proses/login.php" method="POST">
+      <h2>Masuk</h2>
+      <div class="inputBox">
+        <input type="text" name="username" id="" required>
+        <span>Username</span>
+        <i></i>
+      </div>
+      <div class="inputBox">
+        <input type="password" name="password" id="" required>
+        <span>Password</span>
+        <i></i>
+      </div>
+      <div class="inputBox">
+        <select name="roles" id="" required>
+          <option value="">Select Role</option>
+          <option value="admin">Admin</option>
+          <option value="user">User</option>
+        </select>
+      </div>
+      <div class="links">
+        <a href="" onclick="forgot()">Lupa Password?</a>
+        <a href="" onclick="register()">Daftar</a>
+      </div>
+      <input type="submit" value="Login" name="login">
+      <div class="hint">
+        <button onclick="hint()">Hint</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

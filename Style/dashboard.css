@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: #d0d0d0;
+}
+
+.navbar .navbar-brand {
+  font-size: 28px;
+}
+
+#navbarNav .form-control {
+  width: 550px;
+  font-size: 14px;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 30px;
+}
+
+.nav-item .nav-link:hover {
+  color: #ffffff;
+}
+
+.navbar-nav .logout {
+  text-align: center;
+  padding: 0 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #DC3545;
+  cursor: pointer;
+}
+
+.navbar-nav .logout:hover {
+  background: #bb2f3d;
+}
+
+.navbar-nav .logout .nav-link {
+  margin-right: 0;
+}
+
+aside {
+  border-radius: 15px;
+}
+
+aside .b-radius-left {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+aside .b-radius-right {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+aside .nav {
+  height: 90vh;
+}
+
+aside .nav-link {
+  border-radius: 10px;
+}
+
+aside .nav-link:hover {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+aside span {
+  margin-left: 15px;
+}
+
+aside .menu {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 35px 35px  35px;
+}
+
+aside .menu i {
+  margin-right: 20px;
+}
+
+aside .card {
+  width: 20rem;
+  background: rgba(255, 255, 255, 0.8);
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+aside .card .display-5 {
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-left: 18px;
+}
+
+aside .card-body-icon {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 12px;
+  opacity: 0.5;
+  font-size: 124px;
+}
+
+aside .alert {
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 7px 0 0 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+table .nomor {
+  text-align: center;
+}
+
+table .tambah-user {
+  color: #ffffff;
+  text-align: center;
+  padding-left: 43%;
+  text-decoration: none;
+}
+
+table .tambah-user:hover {
+  color: #DC3545;
+}
+
+table tbody .hapus a{
+  color: #ffffff;
+  font-size: 30px;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+table tbody .hapus a:hover {
+  color: #DC3545;
+}
+
+form label {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+form input {
+  margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+  width: 100%;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+  color: #DC3545;
+}
+
+@media screen and (max-width: 995px){
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 3px 0;
+  }
+
+  .navbar-nav .nav-link {
+    margin: auto;
+  }
+
+  aside .nav-link {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 457px){
+  .navbar .navbar-brand {
+    font-size: 18px;
+  }
+
+  .nav-item {
+    font-size: 14px;
+  }
+
+  aside .nav {
+    height: 22.5vh;
+  }
+}
